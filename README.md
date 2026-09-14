@@ -192,7 +192,7 @@ jobs:
           git add ${{ env.build_output_path }}/ -f
           git diff --cached --quiet && echo "No changes to commit" || (git commit -m "ci: upload build outputs - ${{ env.date_today }} [skip ci]" && git push)
 ```
-## Result Generated from Github Action (Private Repository Succesfully Build *Proven*)
+## Result Generated from Github Action (Private Repository Successfully Build *Proven*)
 ![ScreenShot](https://raw.githubusercontent.com/amirisback/automated-build-android-app-with-github-action/master/docs/image/ss-github-push.png?raw=true)
 
 # Run Using Github Action
@@ -302,7 +302,7 @@ jobs:
 ### Step 5. Download Artifact
 ![ScreenShot](https://raw.githubusercontent.com/amirisback/automated-build-android-app-with-github-action/master/docs/image/ss-02.png?raw=true)
 
-### Extras (Private Repository Succesfully Build *Proven*)
+### Extras (Private Repository Successfully Build *Proven*)
 ![ScreenShot](https://raw.githubusercontent.com/amirisback/automated-build-android-app-with-github-action/master/docs/image/ss-private-repo.png?raw=true)
 
 ## Result Generated from Github Action
@@ -631,19 +631,19 @@ echo "     Build completed successfully!    "
 echo "======================================"
 ```
 
-## Colaborator
+## Collaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
 
 - Mail To faisalamircs@gmail.com
 - Subject : Github _ [Github-Username-Account] _ [Language] _ [Repository-Name]
 - Example : Github_amirisback_kotlin_admob-helper-implementation
 
-Name Of Contribute
-- Muhammad Faisal Amir
-- Waiting List
+Names of Contributors
+- [Muhammad Faisal Amir](https://github.com/amirisback)
+- [David Mariscal Fernández](https://github.com/davidmariscalf)
 - Waiting List
 
-Waiting for your contribute
+Waiting for your contribution
 
 ## AI Agent Skill
 
