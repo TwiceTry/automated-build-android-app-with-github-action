@@ -64,7 +64,6 @@ android {
     }
 
     buildFeatures {
-        viewBinding = true
         buildConfig = true
         resValues = true
     }
@@ -85,13 +84,8 @@ kotlin {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.material)
 
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
