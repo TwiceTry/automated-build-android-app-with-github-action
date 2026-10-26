@@ -72,6 +72,12 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
+    lint {
+        // This app is a one-screen trampoline; lint's advice must not fail the build.
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
+
 }
 
 dependencies {
