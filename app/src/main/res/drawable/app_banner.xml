@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A 320x180 banner for the Leanback launcher entry. Kept as a vector-free
+     shape so no binary asset is needed; the home screen falls back to the
+     app icon when it cannot render a banner. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF2B3A55" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:width="72dp"
+        android:height="72dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFFFF" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:width="40dp"
+        android:height="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF2B3A55" />
+        </shape>
+    </item>
+</layer-list>
